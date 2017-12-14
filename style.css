@@ -1,0 +1,99 @@
+
+header, main{
+
+	margin-bottom: 30px;
+}
+
+footer{
+
+	margin-top: 30px;
+}
+
+.footer-size{
+		
+height: 150px;
+border : 2px solid black;
+font-size: 1.5em;
+line-height: 6.5em;
+text-align: center;
+text-decoration: underline;
+
+}
+.container{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+.logo-size,  .menu-size {
+	/*margin-right: 30px;*/
+	height: 120px;
+	text-align: center;
+	border : 2px solid black;
+	line-height: 5em;
+	font-size: 1.5em;
+}
+
+.chamada-size{
+
+	height: 120px;
+	border : 2px solid black;
+	line-height: 5em;
+	font-size: 1.7em;
+
+}
+
+a{
+	padding-left: 22em;
+
+}
+
+
+.titulo-size{
+
+	border: 2px solid black;
+	height: 300px;
+	font-size: 1.5em;
+
+}
+
+p{
+	line-height: 50px;	
+}
+
+
+@media(max-width: 1200px){
+
+	a{
+		padding-left: 18em;
+	}
+
+}
+
+@media(max-width: 984px ){
+
+	a{
+		padding-left: 9em;
+	}
+}
+
+@media(max-width: 767px ) {
+
+	a {
+		padding-left: 3em;
+	}
+}
+
+@media(max-width: 507px ) {
+
+	a {
+		padding-left: 1em;
+	}
+}
+
+@media(max-width: 507px ) {
+
+	a {
+		padding-left: 0em;
+	}
+}
